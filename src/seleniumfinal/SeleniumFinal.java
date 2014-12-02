@@ -24,10 +24,10 @@ public class SeleniumFinal {
         driver.get("http://www.facebook.com.br/");
 
         WebElement campoDeTexto = driver.findElement(By.id("email"));
-        campoDeTexto.sendKeys("joaoarmandopinto01@gmail.com");
+        campoDeTexto.sendKeys("topicosavancados@gmail.com");
         
         WebElement campoDeTexto2 = driver.findElement(By.id("pass"));
-        campoDeTexto2.sendKeys("armandopinto");
+        campoDeTexto2.sendKeys("topicosavancados");
          
         driver.findElement(By.id("u_0_l")).click();    
         
